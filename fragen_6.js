@@ -3,7 +3,7 @@ const questions = [
     "frage": "1. Was beschreibt die Generativität von Sprache am besten?",
     "a": "Grammatik ist optional",
     "b": "Sprache ist immer wörtlich",
-    "c": "Endliche Mittel erlauben unendlich viele Sätze ✔",
+    "c": "Endliche Mittel erlauben unendlich viele Sätze",
     "d": "Wörter haben feste, begrenzte Bedeutungen",
     "richtig": "c",
     "begruendung": "Mit endlicher Zahl von Wörtern/Morphemen lassen sich unendlich viele Sätze bilden. Klausurfalle: Morpheme nicht mit Phonemen verwechseln (Bedeutung vs. Laut)."
@@ -13,14 +13,14 @@ const questions = [
     "a": "Regeln der Wortstellung",
     "b": "kleinste bedeutungstragende Einheiten",
     "c": "Betonungsmuster einer Sprache",
-    "d": "elementare lautliche Einheiten ✔",
+    "d": "elementare lautliche Einheiten",
     "richtig": "d",
     "begruendung": "Phoneme (Phonem = kleinste lautliche Einheit) sind die elementaren Lautbausteine, die Bedeutungsunterschiede markieren. Klausurfalle: Phoneme nicht mit Morphemen verwechseln (Laut vs. Bedeutung)."
   },
   {
     "frage": "3. Morpheme sind…",
     "a": "Betonungsmuster",
-    "b": "kleinste bedeutungstragende Einheiten ✔",
+    "b": "kleinste bedeutungstragende Einheiten",
     "c": "Vokale einer Sprache",
     "d": "Regeln der Wortstellung",
     "richtig": "b",
@@ -28,7 +28,7 @@ const questions = [
   },
   {
     "frage": "4. Syntax bezieht sich auf…",
-    "a": "Regeln zur Kombination von Wortklassen ✔",
+    "a": "Regeln zur Kombination von Wortklassen",
     "b": "Lautunterschiede",
     "c": "Wortbedeutungen",
     "d": "Betonungsmuster",
@@ -40,13 +40,13 @@ const questions = [
     "a": "Erlernen von Farbwörtern",
     "b": "Erwerb der Schreibschrift",
     "c": "Erwerb der Lautkategorien",
-    "d": "Wissen, wie Sprache im sozialen Kontext verwendet wird ✔",
+    "d": "Wissen, wie Sprache im sozialen Kontext verwendet wird",
     "richtig": "d",
     "begruendung": "Es geht um „zwischen den Zeilen“ – kontextangemessene Nutzung von Sprache. Klausurfalle: Pragmatik nicht mit reiner Grammatik verwechseln."
   },
   {
     "frage": "6. Welche Aussage zur Lateralisierung ist typisch?",
-    "a": "Sprache ist meist in der linken Hemisphäre lokalisiert ✔",
+    "a": "Sprache ist meist in der linken Hemisphäre lokalisiert",
     "b": "Keine Hemisphärenunterschiede",
     "c": "Links nur für Lesen",
     "d": "Sprache ist überwiegend rechtshemisphärisch",
@@ -56,7 +56,7 @@ const questions = [
   {
     "frage": "7. „Kritische Phase“ des Spracherwerbs:",
     "a": "0–2 Monate",
-    "b": "bis zur Pubertät ✔",
+    "b": "bis zur Pubertät",
     "c": "2–5 Jahre",
     "d": "ab 20 Jahren",
     "richtig": "b",
@@ -66,7 +66,7 @@ const questions = [
     "frage": "8. Zentrale Evidenz für die sensible Phase stammt u. a. aus…",
     "a": "Tierexperimenten mit Katzen",
     "b": "Schreiblern-Studien",
-    "c": "Emigrantenstudien (Johnson & Newport) ✔",
+    "c": "Emigrantenstudien (Johnson & Newport)",
     "d": "Farbdiskriminationsstudien",
     "richtig": "c",
     "begruendung": "Grammatikleistung sinkt mit steigendem Alter des Lernbeginns einer L2. Klausurfalle: Nicht mit kurzen Zeitfenstern (Monate) verwechseln – reicht bis zur Pubertät."
@@ -75,14 +75,14 @@ const questions = [
     "frage": "9. Neugeborene bevorzugen…",
     "a": "Geräusche von Maschinen",
     "b": "Nur Musik",
-    "c": "Sprachlaute (inkl. Primatenlaute) gegenüber Nicht-Sprachgeräuschen ✔",
+    "c": "Sprachlaute (inkl. Primatenlaute) gegenüber Nicht-Sprachgeräuschen",
     "d": "Stille",
     "richtig": "c",
     "begruendung": "Sehr frühe Präferenz für (menschen-)sprachnahe Laute; sie wird später verfeinert. Klausurfalle: UG ≠ Wortschatz; es geht um abstrakte Regeln."
   },
   {
     "frage": "10. Kindzentrierte Sprache (IDT) ist typischerweise…",
-    "a": "langsamer, höhere Tonhöhe, viele Wiederholungen ✔",
+    "a": "langsamer, höhere Tonhöhe, viele Wiederholungen",
     "b": "nur Schriftform",
     "c": "identisch zur Erwachsenensprache",
     "d": "schneller, monotoner, komplexer",
@@ -94,14 +94,14 @@ const questions = [
     "a": "Schadet anhaltend",
     "b": "Verlangsamt Wortlernen",
     "c": "Ersetzt Grammatik",
-    "d": "Erhöht Aufmerksamkeit und unterstützt Lernen ✔",
+    "d": "Erhöht Aufmerksamkeit und unterstützt Lernen",
     "richtig": "d",
     "begruendung": "Sie lenkt Aufmerksamkeit auf Sprache und erleichtert Wortlernen/Verarbeitung. Klausurfalle: IDT ist häufig, aber nicht in allen Kulturen universell."
   },
   {
     "frage": "12. IDT ist…",
     "a": "nur im Englischen belegt",
-    "b": "weltweit häufig, aber nicht universell ✔",
+    "b": "weltweit häufig, aber nicht universell",
     "c": "nur in Städten vorhanden",
     "d": "in allen Kulturen identisch vorhanden",
     "richtig": "b",
@@ -110,7 +110,7 @@ const questions = [
   {
     "frage": "13. Prosodie bezeichnet…",
     "a": "Syntaxfehler",
-    "b": "Rhythmus, Tempo, Intonation, Melodie ✔",
+    "b": "Rhythmus, Tempo, Intonation, Melodie",
     "c": "Artikulationsstellen",
     "d": "Morpheme",
     "richtig": "b",
@@ -121,13 +121,13 @@ const questions = [
     "a": "Laute als kontinuierlich wahrgenommen werden",
     "b": "nur Vokale unterschieden werden",
     "c": "nur ab 2 Jahren auftritt",
-    "d": "kontinuierliche Unterschiede in Kategorien „geschnitten“ werden ✔",
+    "d": "kontinuierliche Unterschiede in Kategorien „geschnitten“ werden",
     "richtig": "d",
     "begruendung": "Kontinuierliche Akustik → diskrete Kategorien (z. B. /b/ vs. /p/). Klausurfalle: Nicht als graduelle Wahrnehmung interpretieren – es gibt eine kategoriale Grenze."
   },
   {
     "frage": "15. Voice Onset Time (VOT) ist…",
-    "a": "Zeit zwischen Luftfreilassung und Stimmlippenvibration ✔",
+    "a": "Zeit zwischen Luftfreilassung und Stimmlippenvibration",
     "b": "Zeit zwischen Wortende und Atemzug",
     "c": "Zeit bis zum Satzende",
     "d": "nur bei Vokalen relevant",
@@ -138,7 +138,7 @@ const questions = [
     "frage": "16. Befund mit VOT-Kontinuum:",
     "a": "Nur Japaner kategorisieren",
     "b": "Erwachsene hören graduelle Übergänge",
-    "c": "Wechsel wird abrupt kategorisiert ✔",
+    "c": "Wechsel wird abrupt kategorisiert",
     "d": "Babys nicht sensibel für VOT",
     "richtig": "c",
     "begruendung": "Sowohl Erwachsene als auch Säuglinge zeigen kategoriale Grenzziehung. Klausurfalle: VOT nicht mit Pausenlänge im Satz verwechseln."
@@ -146,7 +146,7 @@ const questions = [
   {
     "frage": "17. Habituation/Dishabituation in Säuglingsstudien zeigt…",
     "a": "Gedächtnisverlust",
-    "b": "Unterscheidungsvermögen zwischen Lauten ✔",
+    "b": "Unterscheidungsvermögen zwischen Lauten",
     "c": "motorische Störung",
     "d": "Müdigkeit",
     "richtig": "b",
@@ -154,7 +154,7 @@ const questions = [
   },
   {
     "frage": "18. Wahrnehmungsverengung (perceptual narrowing) bei Sprache:",
-    "a": "Sensitivität für L1-relevante Laute steigt, für nicht-L1 sinkt im 1. Jahr ✔",
+    "a": "Sensitivität für L1-relevante Laute steigt, für nicht-L1 sinkt im 1. Jahr",
     "b": "nur bei Lesen",
     "c": "ab 10 Jahren",
     "d": "nimmt Sensitivität für L1-Laute ab",
@@ -165,7 +165,7 @@ const questions = [
     "frage": "Head-Turn-Paradigma misst…",
     "a": "Atemfrequenz",
     "b": "Schreibgeschwindigkeit",
-    "c": "Blickpräferenzen über Kopfdrehung zu Lauten ✔",
+    "c": "Blickpräferenzen über Kopfdrehung zu Lauten",
     "d": "Greifgeschwindigkeit",
     "richtig": "c",
     "begruendung": "Kopfdrehungen zu Seitenlautsprechern dienen als Präferenzmaß. Klausurfalle: Blick-/Kopfdauer ist das Maß, nicht Bewegungsrichtung allein."
@@ -175,7 +175,7 @@ const questions = [
     "a": "Wörter in Silben zerlegen",
     "b": "Silben zählen",
     "c": "Buchstabenlernen",
-    "d": "Anfang/Ende von Wörtern im kontinuierlichen Sprachstrom erkennen ✔",
+    "d": "Anfang/Ende von Wörtern im kontinuierlichen Sprachstrom erkennen",
     "richtig": "d",
     "begruendung": "Babys finden Wortgrenzen ohne hörbare „Leerzeichen“. Klausurfalle: Schriftliche Leerzeichen sind kein Auditorium-Hinweis."
   },
@@ -184,7 +184,7 @@ const questions = [
     "a": "erst mit Schuleintritt",
     "b": "18 Monate",
     "c": "nur bei geschriebenen Wörtern",
-    "d": "7–8 Monate erkennen wiederholte Wörter in Sätzen ✔",
+    "d": "7–8 Monate erkennen wiederholte Wörter in Sätzen",
     "richtig": "d",
     "begruendung": "Säuglinge extrahieren wiederkehrende Wörter aus Sätzen. Klausurfalle: UG ≠ Wortschatz; es geht um abstrakte Regeln."
   },
@@ -192,14 +192,14 @@ const questions = [
     "frage": "Statistisches Lernen im Sprachstrom:",
     "a": "Kinder ignorieren Übergangswahrscheinlichkeiten",
     "b": "Nur visuell möglich",
-    "c": "Kinder nutzen Silben-Übergangswahrscheinlichkeiten, um „Wörter“ zu finden ✔",
+    "c": "Kinder nutzen Silben-Übergangswahrscheinlichkeiten, um „Wörter“ zu finden",
     "d": "Nur Erwachsene können das",
     "richtig": "c",
     "begruendung": "Hohe Übergangswahrscheinlichkeit (Übergangswahrscheinlichkeit = wie oft Silben/Laute nacheinander auftreten) innerhalb, niedrige zwischen Wörtern. Klausurfalle: Nicht mit Häufigkeit einzelner Wörter verwechseln."
   },
   {
     "frage": "Eigennamen-Effekt:",
-    "a": "ab ~4,5 Monaten hören Säuglinge ihren Namen selektiv heraus ✔",
+    "a": "ab ~4,5 Monaten hören Säuglinge ihren Namen selektiv heraus",
     "b": "erst ab 2 Jahren",
     "c": "irrelevant",
     "d": "nur bei lauter Musik",
@@ -227,7 +227,7 @@ const questions = [
   {
     "frage": "Welche Laute beim frühen Plappern?",
     "a": "nur L1-Laute",
-    "b": "auch nicht-muttersprachliche Laute ✔",
+    "b": "auch nicht-muttersprachliche Laute",
     "c": "nur Vokale",
     "d": "nur Nasale",
     "richtig": "b",
@@ -237,14 +237,14 @@ const questions = [
     "frage": "Warum reicht „menschliches Gehirn“ allein nicht?",
     "a": "Medien genügen",
     "b": "Sprache ist genetisch fix",
-    "c": "Es braucht eine menschliche sprachliche Umwelt ✔",
+    "c": "Es braucht eine menschliche sprachliche Umwelt",
     "d": "Tiere lehren Sprache",
     "richtig": "c",
     "begruendung": "Sprachinput/Interaktion sind notwendig für normalen Erwerb. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
   {
     "frage": "Nichtmenschliche Kommunikation (z. B. Affenalarme)…",
-    "a": "ist reich, aber reichweitenbegrenzt ✔",
+    "a": "ist reich, aber reichweitenbegrenzt",
     "b": "ist schriftlich",
     "c": "hat unbegrenzte Generativität",
     "d": "erreicht menschliche Syntax",
@@ -253,7 +253,7 @@ const questions = [
   },
   {
     "frage": "Kanzi (Bonobo) zeigte…",
-    "a": "großen, aber begrenzten Symbolgebrauch (~>350) ✔",
+    "a": "großen, aber begrenzten Symbolgebrauch (~>350)",
     "b": "keine Zeichenverwendung",
     "c": "nur Imitation ohne Bedeutung",
     "d": "komplexe freie Syntax",
@@ -265,7 +265,7 @@ const questions = [
     "a": "nur Gesten ohne Grammatik",
     "b": "universell identisch",
     "c": "keine „echten“ Sprachen",
-    "d": "echte Sprachen mit vergleichbarer Erwerbsdynamik ✔",
+    "d": "echte Sprachen mit vergleichbarer Erwerbsdynamik",
     "richtig": "d",
     "begruendung": "Vollwertige Sprachen; Erwerb ähnelt gesprochenen Sprachen. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
@@ -273,7 +273,7 @@ const questions = [
     "frage": "Bilingualismus führt typischerweise zu…",
     "a": "Verlernen einer Sprache",
     "b": "massiver, dauerhafter Verzögerung",
-    "c": "getrennten Systemen, oft Code-Switching ✔",
+    "c": "getrennten Systemen, oft Code-Switching",
     "d": "Verwechslung der Sprachen",
     "richtig": "c",
     "begruendung": "Sprachmischungen spiegeln keine Verwirrung, sondern flexible Nutzung. Klausurfalle: Bilingualismus führt typischerweise nicht zu dauerhafter Verzögerung."
@@ -281,7 +281,7 @@ const questions = [
   {
     "frage": "Kognitiver Vorteil bei Bilingualen (häufig berichtet):",
     "a": "schlechteres Arbeitsgedächtnis",
-    "b": "bessere kognitive Kontrolle/Flexibilität ✔",
+    "b": "bessere kognitive Kontrolle/Flexibilität",
     "c": "schlechtere Inhibition",
     "d": "keine Unterschiede",
     "richtig": "b",
@@ -291,7 +291,7 @@ const questions = [
     "frage": "Warum evtl. früher Fremdsprachenunterricht?",
     "a": "Grammatik ist leichter",
     "b": "Kinder sind größer",
-    "c": "sensible Phase ausnutzen ✔",
+    "c": "sensible Phase ausnutzen",
     "d": "Lehrer sind jünger",
     "richtig": "c",
     "begruendung": "Früh beginnen nutzt die hohe Lernbereitschaft vor der Pubertät. Klausurfalle: Nicht mit kurzen Zeitfenstern (Monate) verwechseln – reicht bis zur Pubertät."
@@ -299,7 +299,7 @@ const questions = [
   {
     "frage": "Warum lernen jüngere Kinder evtl. leichter?",
     "a": "mehr Input",
-    "b": "kleineres Arbeitsgedächtnis kann kleineren Phrasen zugutekommen ✔",
+    "b": "kleineres Arbeitsgedächtnis kann kleineren Phrasen zugutekommen",
     "c": "mehr Angst",
     "d": "besseres Arbeitsgedächtnis",
     "richtig": "b",
@@ -310,13 +310,13 @@ const questions = [
     "a": "Semantik/Morpheme",
     "b": "Syntax",
     "c": "Phonologie/Phoneme",
-    "d": "Hormonspiegel ✔",
+    "d": "Hormonspiegel",
     "richtig": "d",
     "begruendung": "Hormonspiegel ist keine Sprachkomponente. Klausurfalle: Phoneme nicht mit Morphemen verwechseln (Laut vs. Bedeutung)."
   },
   {
     "frage": "Beispiel für semantische Veränderung durch Phonemtausch:",
-    "a": "Rippe vs. Lippe ✔",
+    "a": "Rippe vs. Lippe",
     "b": "gehen vs. gegangen",
     "c": "Tisch vs. Stuhl",
     "d": "der vs. die",
@@ -327,14 +327,14 @@ const questions = [
     "frage": "Warum fällt „Nthlakapmx“ Deutschsprechern schwer auszusprechen?",
     "a": "zu viele Silben",
     "b": "fehlende Vokale",
-    "c": "ungewohnte Lautkombinationen in Deutsch ✔",
+    "c": "ungewohnte Lautkombinationen in Deutsch",
     "d": "es ist ein Fantasiewort",
     "richtig": "c",
     "begruendung": "Phonotaktiken variieren zwischen Sprachen. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
   {
     "frage": "„Wug-Test“ illustriert…",
-    "a": "Generativität/Grammatikregelableitung (Pluralbildung) ✔",
+    "a": "Generativität/Grammatikregelableitung (Pluralbildung)",
     "b": "Lesefähigkeit",
     "c": "Prosodiefehler",
     "d": "Wortschatzgröße",
@@ -355,7 +355,7 @@ const questions = [
     "a": "nur Buben reagieren",
     "b": "keine IDT-Präferenz",
     "c": "IDT schadet",
-    "d": "starke Präferenz für IDT ✔",
+    "d": "starke Präferenz für IDT",
     "richtig": "d",
     "begruendung": "Meta-Evidenz für globale IDT (IDT = kindzentrierte Sprache mit hoher Tonlage/Variation)-Präferenz. Klausurfalle: IDT ist häufig, aber nicht in allen Kulturen universell."
   },
@@ -363,7 +363,7 @@ const questions = [
     "frage": "41. Direkte soziale Interaktion beim L2-Phonemlernen (Mandarin) ist…",
     "a": "irrelevant",
     "b": "schlechter als Video",
-    "c": "besser als passives Video ✔",
+    "c": "besser als passives Video",
     "d": "gleich",
     "richtig": "c",
     "begruendung": "Live-Interaktion fördert phonologische Lerngewinne. Klausurfalle: Phoneme nicht mit Morphemen verwechseln (Laut vs. Bedeutung)."
@@ -373,14 +373,14 @@ const questions = [
     "a": "nur nachts wirksam",
     "b": "allein besser",
     "c": "egal",
-    "d": "mit Peer besser ✔",
+    "d": "mit Peer besser",
     "richtig": "d",
     "begruendung": "Soziales Co-Viewing steigert Lernerfolg. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
   {
     "frage": "43. Welche Regel nutzen 8-Monats-Kinder beim Segmentieren im Engl./Deutsch häufig?",
     "a": "nur Endbetonung",
-    "b": "Betonung oft auf erster Silbe zweisilbiger Wörter ✔",
+    "b": "Betonung oft auf erster Silbe zweisilbiger Wörter",
     "c": "keine Betonung",
     "d": "Betonung auf zweiter Silbe",
     "richtig": "b",
@@ -388,7 +388,7 @@ const questions = [
   },
   {
     "frage": "44. „Verteilungscharakteristik“ meint…",
-    "a": "Auftretenswahrscheinlichkeiten von Laut/Folgepaaren ✔",
+    "a": "Auftretenswahrscheinlichkeiten von Laut/Folgepaaren",
     "b": "Häufigkeitsverteilung von Buchstaben in Texten",
     "c": "Sitzordnung im Klassenraum",
     "d": "Lautstärkeverteilung",
@@ -399,14 +399,14 @@ const questions = [
     "frage": "45. Beleg für frühe lexikalische Verarbeitung im Deutschen:",
     "a": "erst mit 3 Jahren",
     "b": "nur mit Schrift",
-    "c": "7–8 Monate erkennen unbetonte Funktionswörter (z. B. „der“, „bei“) ✔",
+    "c": "7–8 Monate erkennen unbetonte Funktionswörter (z. B. „der“, „bei“)",
     "d": "nur in Dialekten",
     "richtig": "c",
     "begruendung": "Frühe Nutzung lexikalischer Hinweise. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
   {
     "frage": "46. Warum fallen Erwachsenen L2-Phoneme schwerer als Babys?",
-    "a": "Wahrnehmungsverengung – L1 filtert irrelevante Kontraste ✔",
+    "a": "Wahrnehmungsverengung – L1 filtert irrelevante Kontraste",
     "b": "nur wegen Grammatik",
     "c": "schlechteres Gehör",
     "d": "zu wenig Motivation",
@@ -418,14 +418,14 @@ const questions = [
     "a": "Laufen-Zeit",
     "b": "Zeichentest",
     "c": "IQ-Test",
-    "d": "Schnuller-Saugfrequenz-Paradigma ✔",
+    "d": "Schnuller-Saugfrequenz-Paradigma",
     "richtig": "d",
     "begruendung": "Saugrate ändert sich bei neuem Laut (Dishabituation). Klausurfalle: Saugabnahme ≠ Desinteresse; es zeigt Habituation."
   },
   {
     "frage": "48. „Babysprache“ ist oft begleitet von…",
     "a": "geschlossenen Augen",
-    "b": "übertriebenen Gesichtsausdrücken ✔",
+    "b": "übertriebenen Gesichtsausdrücken",
     "c": "ohne Gestik",
     "d": "starren Gesichtern",
     "richtig": "b",
@@ -433,7 +433,7 @@ const questions = [
   },
   {
     "frage": "49. Welche Kultur spricht Babys kaum direkt an (Beispiel im Text)?",
-    "a": "Kaluli/Tsimane (selten direkte Ansprache) ✔",
+    "a": "Kaluli/Tsimane (selten direkte Ansprache)",
     "b": "Japan",
     "c": "Deutschland",
     "d": "USA",
@@ -444,7 +444,7 @@ const questions = [
     "frage": "50. Bilingual erzogene Säuglinge im Mutterleib…",
     "a": "bevorzugen eine Sprache",
     "b": "nur Musikpräferenz",
-    "c": "zeigen gleich starke Präferenzen für beide ✔",
+    "c": "zeigen gleich starke Präferenzen für beide",
     "d": "keine Präferenz",
     "richtig": "c",
     "begruendung": "Pränatale Exposition prägt Präferenzen für zwei Sprachen. Klausurfalle: Bilingualismus führt typischerweise nicht zu dauerhafter Verzögerung."
@@ -454,14 +454,14 @@ const questions = [
     "a": "Blick auf Bilder",
     "b": "EEG im Tiefschlaf",
     "c": "Griffstärke",
-    "d": "Head-Turn-Präferenzen für zuvor gehörte Wörter ✔",
+    "d": "Head-Turn-Präferenzen für zuvor gehörte Wörter",
     "richtig": "d",
     "begruendung": "Längere Hörzeit für bekannte Wörter. Klausurfalle: Blick-/Kopfdauer ist das Maß, nicht Bewegungsrichtung allein."
   },
   {
     "frage": "52. Warum hilft der eigene Name beim Wortlernen?",
     "a": "ist lang",
-    "b": "dient als Anker/Marker in Sätzen ✔",
+    "b": "dient als Anker/Marker in Sätzen",
     "c": "hat besondere Phoneme",
     "d": "wird selten gesagt",
     "richtig": "b",
@@ -472,13 +472,13 @@ const questions = [
     "a": "täglich wechselnd",
     "b": "ein vermischtes System",
     "c": "keine Systeme",
-    "d": "zwei getrennte Systeme, flexible Umschaltung ✔",
+    "d": "zwei getrennte Systeme, flexible Umschaltung",
     "richtig": "d",
     "begruendung": "Evidenz spricht für getrennte, koordinierte Systeme. Klausurfalle: Bilingualismus führt typischerweise nicht zu dauerhafter Verzögerung."
   },
   {
     "frage": "54. „Code-Switching“ ist…",
-    "a": "normaler Aspekt zweisprachiger Kommunikation ✔",
+    "a": "normaler Aspekt zweisprachiger Kommunikation",
     "b": "nur bei Erwachsenen",
     "c": "Fehler",
     "d": "verboten",
@@ -489,7 +489,7 @@ const questions = [
     "frage": "55. Warum unterstützen zweisprachige Bildungssettings L2/L1?",
     "a": "sie vermeiden Grammatik",
     "b": "sie verhindern Code-Switching",
-    "c": "sie stärken beide Sprachen parallel ✔",
+    "c": "sie stärken beide Sprachen parallel",
     "d": "sie reduzieren Wortschatz",
     "richtig": "c",
     "begruendung": "Forschung stützt frühzeitige, systematische Förderung beider Sprachen. Klausurfalle: Code‑Switching ist normal, kein Fehler."
@@ -497,7 +497,7 @@ const questions = [
   {
     "frage": "56. Kinder verstehen typischerweise…",
     "a": "gar nichts",
-    "b": "viel mehr als sie produzieren ✔",
+    "b": "viel mehr als sie produzieren",
     "c": "weniger als sie sagen",
     "d": "gleich viel",
     "richtig": "b",
@@ -505,7 +505,7 @@ const questions = [
   },
   {
     "frage": "57. Beispiel „Klaus liebt Anna“ vs. „Anna liebt Klaus“ illustriert…",
-    "a": "Syntax (Wortstellung) ✔",
+    "a": "Syntax (Wortstellung)",
     "b": "Phonologie",
     "c": "Pragmatik",
     "d": "Prosodie",
@@ -516,7 +516,7 @@ const questions = [
     "frage": "58. Warum sind Tier-„Sprachen“ begrenzt?",
     "a": "zu laute Umgebung",
     "b": "keine Kommunikation",
-    "c": "fehlen syntaktisch generative Strukturen ✔",
+    "c": "fehlen syntaktisch generative Strukturen",
     "d": "kein Gehör",
     "richtig": "c",
     "begruendung": "Training zeigt Symbole, aber kaum regelgeleitete Syntax. Syntax = Regeln der Wortstellung/Kombination. Klausurfalle: Syntax nicht mit Semantik/Pragmatik gleichsetzen."
@@ -526,14 +526,14 @@ const questions = [
     "a": "erst in der Pubertät",
     "b": "nur bei Männern",
     "c": "nur beim Lesen",
-    "d": "bereits bei Säuglingen in sprachbezogenen Antworten ✔",
+    "d": "bereits bei Säuglingen in sprachbezogenen Antworten",
     "richtig": "d",
     "begruendung": "Bildgebende Befunde belegen frühe Linksdominanz. Klausurfalle: Nicht rechtshemisphärische Dominanz annehmen – meist links."
   },
   {
     "frage": "60. Warum sind die „Wolfskind“-Fälle keine eindeutige Evidenz allein?",
     "a": "zu modern",
-    "b": "Konfundierungen (allg. Deprivation, Entwicklungsstörungen) ✔",
+    "b": "Konfundierungen (allg. Deprivation, Entwicklungsstörungen)",
     "c": "nur männliche Kinder",
     "d": "zu viele Daten",
     "richtig": "b",
@@ -541,7 +541,7 @@ const questions = [
   },
   {
     "frage": "61. Johnson & Newport (1989): Beste Grammatikleistungen bei…",
-    "a": "L2-Beginn < 7 Jahre ✔",
+    "a": "L2-Beginn < 7 Jahre",
     "b": "L2-Beginn 17–39",
     "c": "L2-Beginn 11–15",
     "d": "unabhängig vom Beginn",
@@ -551,7 +551,7 @@ const questions = [
   {
     "frage": "62. Hartshorne et al. (2018) fanden…",
     "a": "Verbesserung im Alter",
-    "b": "spätere Verschlechterung (Ende Adoleszenz) ✔",
+    "b": "spätere Verschlechterung (Ende Adoleszenz)",
     "c": "nur Wortschatz-Effekte",
     "d": "keinen Alters-Effekt",
     "richtig": "b",
@@ -562,7 +562,7 @@ const questions = [
     "a": "Licht stört",
     "b": "Ton ist schlechter",
     "c": "Babys mögen keine Bildschirme",
-    "d": "soziale/aufmerksame Kopplung fördert phonologisches Mapping ✔",
+    "d": "soziale/aufmerksame Kopplung fördert phonologisches Mapping",
     "richtig": "d",
     "begruendung": "Soziale Kontingenz fördert Lernen. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
@@ -570,14 +570,14 @@ const questions = [
     "frage": "64. Frühe Vokalisationen bewirken u. a.:",
     "a": "Lärmgefahr",
     "b": "Sprachverlust",
-    "c": "mehr motorische Kontrolle + soziale Dialoge ✔",
+    "c": "mehr motorische Kontrolle + soziale Dialoge",
     "d": "weniger soziale Reaktionen",
     "richtig": "c",
     "begruendung": "Kind lernt Kontrolle und Effekte auf andere. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
   {
     "frage": "65. Babys nutzen beim Segmentieren NICHT:",
-    "a": "Buchstabierregeln ✔",
+    "a": "Buchstabierregeln",
     "b": "Übergangswahrscheinlichkeiten",
     "c": "Betonungsmuster",
     "d": "eigene Namen",
@@ -589,7 +589,7 @@ const questions = [
     "a": "nur mit Belohnung",
     "b": "erfordert Jahre",
     "c": "nur mit Musik",
-    "d": "gelingt nach Minuten Input ✔",
+    "d": "gelingt nach Minuten Input",
     "richtig": "d",
     "begruendung": "Schon 2 Minuten Kunstwortstrom genügen für Effekte. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
@@ -597,7 +597,7 @@ const questions = [
     "frage": "67. Welche Aussage zum bilingualen Wortschatz ist korrekt?",
     "a": "starke Verzögerung",
     "b": "dauerhaft kleiner in Summe",
-    "c": "anfänglich verteilt über zwei Sprachen, Gesamtverlauf ähnlich ✔",
+    "c": "anfänglich verteilt über zwei Sprachen, Gesamtverlauf ähnlich",
     "d": "keine frühen Wörter",
     "richtig": "c",
     "begruendung": "Anfangs leichte Verzögerungen in jeder Sprache möglich, Gesamtkompetenz wächst normal. Klausurfalle: Bilingualismus führt typischerweise nicht zu dauerhafter Verzögerung."
@@ -605,7 +605,7 @@ const questions = [
   {
     "frage": "68. Funktion von Funktionswörtern (z. B. „der“, „bei“) für Babys:",
     "a": "nur Schrift",
-    "b": "dienen als segmentierende Marker ✔",
+    "b": "dienen als segmentierende Marker",
     "c": "nur Dialekt",
     "d": "ignoriert",
     "richtig": "b",
@@ -615,7 +615,7 @@ const questions = [
     "frage": "69. „Perceptual narrowing“ bei Vokalen tritt…",
     "a": "nur im Schlaf",
     "b": "nie",
-    "c": "früher als bei Konsonanten ✔",
+    "c": "früher als bei Konsonanten",
     "d": "später als bei Konsonanten",
     "richtig": "c",
     "begruendung": "Für Vokale zeigen sich Veränderungen noch etwas früher. Klausurfalle: Es bedeutet Spezialisierung, nicht generellen Verlust des Hörens."
@@ -625,13 +625,13 @@ const questions = [
     "a": "Beispiel für Prosodie",
     "b": "Beispiel für Semantik",
     "c": "Beispiel für statistisches Lernen",
-    "d": "Beispiel für nicht-L1-Kontraste, die Babys anfangs noch hören ✔",
+    "d": "Beispiel für nicht-L1-Kontraste, die Babys anfangs noch hören",
     "richtig": "d",
     "begruendung": "Babys diskriminieren Kontraste, die Erwachsene nicht mehr unterscheiden. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
   {
     "frage": "71. „Sprachmischung“ (Code-Mixing) bei Eltern/Kindern…",
-    "a": "normal und häufig ✔",
+    "a": "normal und häufig",
     "b": "selten",
     "c": "verboten",
     "d": "pathologisch",
@@ -641,7 +641,7 @@ const questions = [
   {
     "frage": "72. Warum sind Computermodelle bislang schwach im Segmentieren?",
     "a": "fehlende Rechenleistung",
-    "b": "echte Sprache ist komplex; Babys nutzen vielfältige Hinweise gleichzeitig ✔",
+    "b": "echte Sprache ist komplex; Babys nutzen vielfältige Hinweise gleichzeitig",
     "c": "Babys können mehr hören",
     "d": "Technikverbot",
     "richtig": "b",
@@ -652,14 +652,14 @@ const questions = [
     "a": "macht ängstlich",
     "b": "verhindert Lernen",
     "c": "senkt Präferenz",
-    "d": "Teil der Erklärung, warum IDT bevorzugt wird ✔",
+    "d": "Teil der Erklärung, warum IDT bevorzugt wird",
     "richtig": "d",
     "begruendung": "Affekt trägt zur Attraktivität von IDT (IDT = kindzentrierte Sprache mit hoher Tonlage/Variation) bei. Klausurfalle: IDT ist häufig, aber nicht in allen Kulturen universell."
   },
   {
     "frage": "Welche Aussage zur „menschlichen Umwelt“ ist falsch?",
     "a": "Notwendig für Sprachentwicklung",
-    "b": "Unwichtig bei Gebärdensprachen ✔",
+    "b": "Unwichtig bei Gebärdensprachen",
     "c": "Varianz zwischen Kulturen",
     "d": "Fast überall verfügbar",
     "richtig": "b",
@@ -669,14 +669,14 @@ const questions = [
     "frage": "„Active child“-Thema in Kapitel 6 zeigt…",
     "a": "Kinder sind passiv",
     "b": "nur Imitation",
-    "c": "Kinder lenken aktiv Aufmerksamkeit/Interaktion und lernen so Sprache ✔",
+    "c": "Kinder lenken aktiv Aufmerksamkeit/Interaktion und lernen so Sprache",
     "d": "nur genetisch",
     "richtig": "c",
     "begruendung": "Aktive Teilnahme an Kommunikation treibt Erwerb. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
   {
     "frage": "74. Warum gilt „Sprache ist universal“?",
-    "a": "nahezu alle Menschen erwerben in der Kindheit Sprache ✔",
+    "a": "nahezu alle Menschen erwerben in der Kindheit Sprache",
     "b": "nur mit Schrift",
     "c": "nur in Europa",
     "d": "nur in Städten",
@@ -685,7 +685,7 @@ const questions = [
   },
   {
     "frage": "75. Welche Ebene ist NICHT Teil der hierarchischen Sprachstruktur laut Text?",
-    "a": "Gene → Wörter ✔",
+    "a": "Gene → Wörter",
     "b": "Wörter → Sätze",
     "c": "Sätze → Geschichten/Gespräche",
     "d": "Lautpegel → Wörter",
@@ -695,7 +695,7 @@ const questions = [
   {
     "frage": "76. Warum ist „Rico“ (Hund) im Text?",
     "a": "sprach Englisch",
-    "b": "zeigte Wortlernen mit Einschränkungen ✔",
+    "b": "zeigte Wortlernen mit Einschränkungen",
     "c": "beherrschte Syntax wie Kinder",
     "d": "konnte lesen",
     "richtig": "b",
@@ -706,7 +706,7 @@ const questions = [
     "a": "über Kinder hinausgehende Englischkompetenz",
     "b": "nur Geräusche",
     "c": "Grammatik wie Erwachsene",
-    "d": "elementare Produktion/Verständnis – nicht über Kleinkindniveau ✔",
+    "d": "elementare Produktion/Verständnis – nicht über Kleinkindniveau",
     "richtig": "d",
     "begruendung": "Kompetenzen blieben auf frühem Niveau. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
@@ -714,7 +714,7 @@ const questions = [
     "frage": "78. Praxis-Implikation der sensiblen Phase:",
     "a": "L2 erst in Oberstufe",
     "b": "keine Konsequenzen",
-    "c": "frühe Einführung von Gebärdensprache bei gehörlosen Kindern ✔",
+    "c": "frühe Einführung von Gebärdensprache bei gehörlosen Kindern",
     "d": "nur Schrifttraining",
     "richtig": "c",
     "begruendung": "Früher Zugang verbessert Outcomes deutlich. Klausurfalle: UG ≠ Wortschatz; es geht um abstrakte Regeln."
@@ -723,7 +723,7 @@ const questions = [
     "frage": "79. Sprachverstehen vs. -produktion im Alter 5:",
     "a": "Verständnis < Produktion",
     "b": "keine Grammatik",
-    "c": "Grammatische Produktion oft schon erwachsenennah, Wortschatz noch im Aufbau ✔",
+    "c": "Grammatische Produktion oft schon erwachsenennah, Wortschatz noch im Aufbau",
     "d": "Produktion weit voraus",
     "richtig": "c",
     "begruendung": "Sätze meist korrekt; Lexikon/Pragmatik reifen weiter. Klausurfalle: Pragmatik nicht mit reiner Grammatik verwechseln."
@@ -733,13 +733,13 @@ const questions = [
     "a": "nur bei Namen",
     "b": "Wörter enden stets betont",
     "c": "nur schriftlich",
-    "d": "Betonung häufig auf erster Silbe – Hinweis für Wortanfänge ✔",
+    "d": "Betonung häufig auf erster Silbe – Hinweis für Wortanfänge",
     "richtig": "d",
     "begruendung": "Hilft bei Segmentierung im Hörstrom. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
   {
     "frage": "81. Welche Messgröße zeigt Präferenz im Head-Turn-Setup?",
-    "a": "Dauer des Blicks zur Seite (Stimulus wird länger gespielt) ✔",
+    "a": "Dauer des Blicks zur Seite (Stimulus wird länger gespielt)",
     "b": "Puls",
     "c": "Schreidauer",
     "d": "Hautleitwert",
@@ -749,7 +749,7 @@ const questions = [
   {
     "frage": "82. Warum ist „less-is-more“ paradox?",
     "a": "mehr Wörter = schlechter",
-    "b": "begrenztes Arbeitsgedächtnis erleichtert Strukturentdeckung ✔",
+    "b": "begrenztes Arbeitsgedächtnis erleichtert Strukturentdeckung",
     "c": "nur bei Erwachsenen",
     "d": "weniger Input = weniger Lernen",
     "richtig": "b",
@@ -759,7 +759,7 @@ const questions = [
     "frage": "83. Welche Aussage zu IDT ist falsch?",
     "a": "langsamere Rede",
     "b": "deutliche Vokalartikulation",
-    "c": "geringere Tonhöhenvariabilität ✔",
+    "c": "geringere Tonhöhenvariabilität",
     "d": "viele Wiederholungen",
     "richtig": "c",
     "begruendung": "IDT (IDT = kindzentrierte Sprache mit hoher Tonlage/Variation) hat größere Tonhöhenvariabilität. Klausurfalle: IDT ist häufig, aber nicht in allen Kulturen universell."
@@ -767,7 +767,7 @@ const questions = [
   {
     "frage": "84. „Präferenz für IDT“ bei Babys ist…",
     "a": "nur in einer Studie gezeigt",
-    "b": "weltweit repliziert ✔",
+    "b": "weltweit repliziert",
     "c": "nur im Labor",
     "d": "nur bei Mädchen",
     "richtig": "b",
@@ -778,13 +778,13 @@ const questions = [
     "a": "zeigen Bedeutungslosigkeit",
     "b": "nur in Lyrik",
     "c": "signalisieren Satzende",
-    "d": "markieren oft Wortanfänge ✔",
+    "d": "markieren oft Wortanfänge",
     "richtig": "d",
     "begruendung": "Rhythmische Hinweise stützen Segmentierung. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
   },
   {
     "frage": "86. Welche Rolle spielt die soziale Responsivität der Bezugsperson?",
-    "a": "mehr kontingente Reaktion → komplexere Vokalisationen beim Kind ✔",
+    "a": "mehr kontingente Reaktion → komplexere Vokalisationen beim Kind",
     "b": "senkt Vokalisationen",
     "c": "keine",
     "d": "stört Lernen",
@@ -794,7 +794,7 @@ const questions = [
   {
     "frage": "87. Warum ist „Sprachinput“ bei Kulturen ohne IDT nicht null?",
     "a": "Kinder sind taub",
-    "b": "passive Teilhabe an Gesprächen liefert Input ✔",
+    "b": "passive Teilhabe an Gesprächen liefert Input",
     "c": "keine Menschen",
     "d": "nur Geräusche",
     "richtig": "b",
@@ -804,7 +804,7 @@ const questions = [
     "frage": "88. Warum ist die Emigranten-Evidenz stark?",
     "a": "nur kurze Tests",
     "b": "alle gleich alt",
-    "c": "natürliche Variation des Startalters bei hoher Exposition ✔",
+    "c": "natürliche Variation des Startalters bei hoher Exposition",
     "d": "nur Vokab",
     "richtig": "c",
     "begruendung": "Alter-bei-Beginn erklärt Grammatikkompetenz unabhängig von Expositionsdauer. Klausurfalle: Begriffe nicht aus Nachbarbereichen verwechseln; genau auf Formulierungen achten."
@@ -814,13 +814,13 @@ const questions = [
     "a": "langsames Wortlernen über Wochen",
     "b": "Auswendiglernen von Wörterlisten",
     "c": "Lesenlernen im Vorschulalter",
-    "d": "schnelles Herstellen einer Wort-Bedeutungs-Zuordnung nach minimalem Input ✔",
+    "d": "schnelles Herstellen einer Wort-Bedeutungs-Zuordnung nach minimalem Input",
     "richtig": "d",
     "begruendung": "Kinder können neue Wort-Referent-Zuordnungen nach sehr wenig Exposition bilden. Klausurfalle: Fast mapping ≠ dauerhaftes, vollständiges Lernen ohne Kontext."
   },
   {
     "frage": "90. Welcher Heuristik folgen Kinder häufig beim Benennen neuer Gegenstände?",
-    "a": "Whole-object-Bias (Wort bezieht sich auf das ganze Objekt) ✔",
+    "a": "Whole-object-Bias (Wort bezieht sich auf das ganze Objekt)",
     "b": "Funktions-Bias ausschließlich",
     "c": "Material-Bias ausschließlich",
     "d": "Teile-Bias",
